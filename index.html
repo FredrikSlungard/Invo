@@ -10,19 +10,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-
-  <!-- Latest compiled and minified CSS Jasny må komme etter bootstrap-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css">
-
-  <link rel="stylesheet" href="/main/css/navbar.css">
-  <link rel="stylesheet" href="/main/css/body.css">
-
-  <!--Javascript-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -40,15 +29,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Generelt <span class="sr-only">(current)</span></a>
+            <a class="nav-link" onclick="showGenerelt()" href="#">Generelt <span class="sr-only">(current)</span></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Personell</a>
+            <a class="nav-link" href="#" onclick="showKunde()">Kunde</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Fag</a>
+            <a class="nav-link" href="#" onclick="showPersonell()">Personell</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="showFag()">Fag</a>
           </li>
         </ul>
 
@@ -62,7 +55,7 @@
     <!--Hovedinnholdet-->
     <hr>
     <main role="main">
-      <div id="generelt">
+      <div id="generelt"  class="collapse show">
         <form>
           <div class="form-group">
             <label for="tittel">Tittel</label>
@@ -80,6 +73,16 @@
           </div>
 
           <div class="form-group">
+            <label for="anbudsdato">Anbudsfrist</label>
+            <input type="text" class="form-control" id="anbudsdato" placeholder="Velg frist for å levere anbud">
+          </div>
+
+          <div class="form-group">
+            <label for="StartDato">Oppstart</label>
+            <input type="text" class="form-control" id="StartDato" placeholder="Velg oppstartsdato">
+          </div>
+
+          <div class="form-group">
             <label for="kontrakt">Kontraktsform</label>
               <select type="text" class="form-control" id="kontrakt">
                 <option>NS1</option>
@@ -90,7 +93,7 @@
           </div>
 
           <div class="form-group">
-            <label for="status">Kontraktsform</label>
+            <label for="status">Status</label>
               <select type="text" class="form-control" id="status">
                 <option>Anbud</option>
                 <option>Prosjekt</option>
@@ -104,11 +107,32 @@
           </div>
 
 
+
+          
         </form>
       </div>
 
 
-      <div id="personell">
+      <div id="kunde" class="collapse">
+        <div class="form-group">
+          <label for="firma">Byggherre</label>
+          <input type="text" class="form-control" id="firma" placeholder="Søk etter firma">
+        </div>
+
+        <div class="form-group">
+          <label for="kontaktperson">Byggherres kontaktperson</label>
+          <input type="text" class="form-control" id="firma" placeholder="Søk etter navn">
+        </div>
+
+        <div class="form-group">
+          <label for="konsulent">Konsulenter</label>
+          <input type="text" class="form-control" id="konsulent" placeholder="Søk etter konsulent">
+        </div>
+
+      </div>
+
+
+      <div id="personell" class="collapse">
         <div class="form-group">
           <label for="PL">Prosjektleder</label>
           <input type="text" class="form-control" id="PL" placeholder="Prosjektleder">
@@ -128,34 +152,74 @@
           <label for="crew">Mannskap</label>
           <input type="text" class="form-control" id="crew" placeholder="Velg mannskap">
         </div>
-
-        <div class="form-group">
-          <label for="PL">Prosjektleder</label>
-          <input type="text" class="form-control" id="PL" placeholder="Prosjektleder">
-        </div>
       </div>
 
       
-      <div id="fag">
+      <div id="fag"  class="collapse">
         <form>
-          <p>Velg hvilke fag som skal benyttes</p>
-          <div class="checkbox">
-            <label><input type="checkbox">Betong</label>
-          </div>
+          <div class="row">
+            <div class="col-sm">
+              <div class="checkbox">
+                <label><input type="checkbox">Betong</label>
+              </div>
+    
+              <div class="checkbox">
+                <label><input type="checkbox">Bru</label>
+              </div>
+    
+              <div class="checkbox">
+                <label><input type="checkbox">Bru</label>
+              </div>
+    
+              <div class="checkbox">
+                <label><input type="checkbox">P-Hus</label>
+              </div>
+            </div>
 
-          <div class="checkbox">
-            <label><input type="checkbox">Bru</label>
-          </div>
+            <div class="col-sm">
+              <div class="checkbox">
+                <label><input type="checkbox">Stillas</label>
+              </div>
 
-          <div class="checkbox">
-            <label><input type="checkbox">Bru</label>
-          </div>
+              <div class="checkbox">
+                <label><input type="checkbox">Fasade</label>
+              </div>
+
+              <div class="checkbox">
+                <label><input type="checkbox">Annet</label>
+              </div>
+            </div>
+        
+        
         </form>
       </div>
-    
+      
     </main>
-
-    <button type="submit" class="btn btn-default">Submit</button>
   </div>
+
+
+  
+  <script>
+    showGenerelt = () => {
+      $(".collapse").hide();
+      $('#generelt').show();
+    };
+
+    showKunde = () => {
+      $(".collapse").hide();
+      $('#kunde').show();
+    };
+
+    showPersonell = () => {
+      $(".collapse").hide();
+      $('#personell').show();
+    };
+
+    showFag = () => {
+      $(".collapse").hide();
+      $('#fag').show();
+    };
+
+  </script>
 
 </body>
