@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <!--Meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+  <!-- Latest compiled and minified CSS Jasny må komme etter bootstrap-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css">
+
+  <link rel="stylesheet" href="/main/css/navbar.css">
+  <link rel="stylesheet" href="/main/css/body.css">
+
+  <!--Javascript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Nytt prosjekt</h1>
+    <p>Her er et kort eksempel på prosjektskjemaet og hvordan det kan se ut.</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Generelt <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Personell</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fag</a>
+          </li>
+        </ul>
+
+        <form hidden="true" class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!--Hovedinnholdet-->
+    <hr>
+    <main role="main">
+      <div id="generelt">
+        <form>
+          <div class="form-group">
+            <label for="tittel">Tittel</label>
+            <input type="text" class="form-control" id="tittel" placeholder="Tittel">
+          </div>
+
+          <div class="form-group">
+            <label for="beskrivelse">Beskrivelse</label>
+            <textarea class = "form-control" rows = "3" placeholder = "Gi en beskrivelse"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="ammount">Estimert pris</label>
+            <input type="text" class="form-control" id="ammount" placeholder="Anbudssum">
+          </div>
+
+          <div class="form-group">
+            <label for="kontrakt">Kontraktsform</label>
+              <select type="text" class="form-control" id="kontrakt">
+                <option>NS1</option>
+                <option>NS2</option>
+                <option>NS3</option>
+                <option>NS4</option>
+              </select>
+          </div>
+
+          <div class="form-group">
+            <label for="status">Kontraktsform</label>
+              <select type="text" class="form-control" id="status">
+                <option>Anbud</option>
+                <option>Prosjekt</option>
+                <option>Ettermarked</option>
+              </select>
+          </div>
+
+          <div class="checkbox">
+            <label><input type="checkbox">Lag i støttesystem</label>
+            <p class="small">Opprett prosjekt i støttesystem (Zirius, smartdok osv.)</p>
+          </div>
+
+
+        </form>
+      </div>
+
+
+      <div id="personell">
+        <div class="form-group">
+          <label for="PL">Prosjektleder</label>
+          <input type="text" class="form-control" id="PL" placeholder="Prosjektleder">
+        </div>
+
+        <div class="form-group">
+          <label for="AL">Anleggsleder</label>
+          <input type="text" class="form-control" id="AL" placeholder="Anleggsleder">
+        </div>
+
+        <div class="form-group">
+          <label for="BAS">Formann / BAS</label>
+          <input type="text" class="form-control" id="BAS" placeholder="Velg Formann/BAS">
+        </div>
+
+        <div class="form-group">
+          <label for="crew">Mannskap</label>
+          <input type="text" class="form-control" id="crew" placeholder="Velg mannskap">
+        </div>
+
+        <div class="form-group">
+          <label for="PL">Prosjektleder</label>
+          <input type="text" class="form-control" id="PL" placeholder="Prosjektleder">
+        </div>
+      </div>
+
+      
+      <div id="fag">
+        <form>
+          <p>Velg hvilke fag som skal benyttes</p>
+          <div class="checkbox">
+            <label><input type="checkbox">Betong</label>
+          </div>
+
+          <div class="checkbox">
+            <label><input type="checkbox">Bru</label>
+          </div>
+
+          <div class="checkbox">
+            <label><input type="checkbox">Bru</label>
+          </div>
+        </form>
+      </div>
+    
+    </main>
+
+    <button type="submit" class="btn btn-default">Submit</button>
+  </div>
+
+</body>
