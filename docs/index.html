@@ -49,6 +49,7 @@
     <main>
       <div id="prosjektSkjema"></div>
       <div id="contactSkjema"></div>
+      <div id="firmaSkjema"></div>
     </main>
     
   </div>
@@ -56,7 +57,7 @@
   <script src='/docs/js/load.js'></script>
   <script>
     gotoProsjektSkjema = () => {
-      $("#contactSkjema").hide();
+      $("#contactSkjema, #firmaSkjema").hide();
       $('#prosjektSkjema').show();
     };
     
