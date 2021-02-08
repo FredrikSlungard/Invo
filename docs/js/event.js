@@ -5,7 +5,7 @@ $(document).on('click', '.nav-link', function (e) {
   e.preventDefault();
 
   let allCollapsible = $('.collapse');
-  let href = $(this).attr('href');//.replace('#', '');
+  let href = $(this).attr('href');
 
   allCollapsible.removeClass('show');
   $(href).addClass('show');
