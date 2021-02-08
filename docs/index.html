@@ -31,19 +31,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Generelt</a>
+                  <a class="nav-link" href="#generelt">Generelt</a>
                 </li>
           
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Kunde</a>
+                  <a class="nav-link" href="#kunde">Kunde</a>
                 </li>
           
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Personell</a>
+                  <a class="nav-link" href="#personell">Personell</a>
                 </li>
       
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Fag</a>
+                  <a class="nav-link" href="#fag">Fag</a>
                 </li>
               </ul>
             </div>
@@ -79,10 +79,10 @@
               <div class="form-group">
                 <label for="kontrakt">Kontraktsform</label>
                 <select type="text" class="form-control" id="kontrakt">
-                  <option>NS1</option>
-                  <option>NS2</option>
-                  <option>NS3</option>
-                  <option>NS4</option>
+                  <option>NS3405</option>
+                  <option>NS3406</option>
+                  <option>NS3407</option>
+                  <option>NS3408</option>
                 </select>
               </div>
         
@@ -98,6 +98,11 @@
               <div class="checkbox">
                 <label><input type="checkbox">Lag i støttesystem</label>
                 <p class="small">Opprett prosjekt i støttesystem (Zirius, smartdok osv.)</p>
+              </div>
+
+              <div class="checkbox">
+                <label><input type="checkbox">Arkiver prosjet</label>
+                <p class="small">Arkiver prosjektet når du er ferdig, prosjektet vil da kunne benyttes som referanse.</p>
               </div>
             </form>
           </div>
@@ -186,5 +191,8 @@
         </div>
     </main>
     
+    <script>
+      $.get('js/event.js')
+    </script>
   </div>
 </body>
