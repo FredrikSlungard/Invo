@@ -20,32 +20,33 @@
       <h2>Prosjektskjema</h2>
       <p>Viser hvordan prosjektskjemaet kan se ut, ikke en nøyaktig fremstilling med tanke på
         design og funksjonalitet.</p>
-        <hr>
+      <hr>
+      
         <div>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="#generelt">Generelt</a>
                 </li>
-                
+
                 <li class="nav-item active">
-                  <a class="nav-link" href="#adresse">Generelt</a>
+                  <a class="nav-link" href="#adresse">Adresse</a>
                 </li>
 
                 <li class="nav-item">
                   <a class="nav-link" href="#kunde">Kunde</a>
                 </li>
-          
+
                 <li class="nav-item">
                   <a class="nav-link" href="#personell">Personell</a>
                 </li>
-      
+
                 <li class="nav-item">
                   <a class="nav-link" href="#fag">Fag</a>
                 </li>
@@ -59,27 +60,32 @@
                 <label for="tittel">Tittel</label>
                 <input type="text" class="form-control" id="tittel" placeholder="Tittel">
               </div>
-        
+
               <div class="form-group">
                 <label for="beskrivelse">Beskrivelse</label>
                 <textarea class="form-control" rows="3" placeholder="Gi en beskrivelse"></textarea>
               </div>
-        
+
               <div class="form-group">
-                <label for="ammount">Estimert pris</label>
+                <label for="ammount">Pris</label>
                 <input type="text" class="form-control" id="ammount" placeholder="Anbudssum">
               </div>
-        
+
               <div class="form-group">
                 <label for="anbudsdato">Anbudsfrist</label>
                 <input type="text" class="form-control" id="anbudsdato" placeholder="Velg frist for å levere anbud">
               </div>
-        
+
               <div class="form-group">
                 <label for="StartDato">Oppstart</label>
                 <input type="text" class="form-control" id="StartDato" placeholder="Velg oppstartsdato">
               </div>
-        
+
+              <div class="form-group">
+                <label for="StartDato">Ferdigstillelse</label>
+                <input type="text" class="form-control" id="StartDato" placeholder="Velg ferdigdato">
+              </div>
+
               <div class="form-group">
                 <label for="kontrakt">Kontraktsform</label>
                 <select type="text" class="form-control" id="kontrakt">
@@ -89,7 +95,7 @@
                   <option>NS3408</option>
                 </select>
               </div>
-        
+
               <div class="form-group">
                 <label for="status">Status</label>
                 <select type="text" class="form-control" id="status">
@@ -98,7 +104,7 @@
                   <option>Ettermarked</option>
                 </select>
               </div>
-        
+
               <div class="checkbox">
                 <label><input type="checkbox">Lag i støttesystem</label>
                 <p class="small">Opprett prosjekt i støttesystem (Zirius, smartdok osv.)</p>
@@ -106,56 +112,57 @@
 
               <div class="checkbox">
                 <label><input type="checkbox">Arkiver prosjet</label>
-                <p class="small">Arkiver prosjektet når du er ferdig, prosjektet vil da kunne benyttes som referanse.</p>
+                <p class="small">Arkiver prosjektet når du er ferdig, prosjektet vil da kunne benyttes som referanse.
+                </p>
               </div>
             </form>
           </div>
-          
+
           <div id="adresse" class="collapse">
             <img src="img/Adresse.JPG" alt="Bilde av adressemodulen i Invo">
-            <p>Bruker samme modul som i Kontaktmodulen</p>
+            <p>Bruker samme modul som i Kontaktmodulen, med unntak av "Other adress"</p>
           </div>
           <div id="kunde" class="collapse">
             <div class="form-group">
               <label for="firma">Byggherre</label>
               <input type="text" class="form-control" id="firma" placeholder="Søk etter firma">
             </div>
-        
+
             <div class="form-group">
               <label for="kontaktperson">Byggherres kontaktperson</label>
               <input type="text" class="form-control" id="kontaktperson" placeholder="Søk etter navn">
             </div>
-        
+
             <div class="form-group">
               <label for="konsulent">Konsulenter</label>
               <input type="text" class="form-control" id="konsulent" placeholder="Søk etter konsulent">
             </div>
-        
+
           </div>
-        
+
           <div id="personell" class="collapse">
             <div class="form-group">
               <label for="PL">Prosjektleder</label>
               <input type="text" class="form-control" id="PL" placeholder="Prosjektleder">
             </div>
-        
+
             <div class="form-group">
               <label for="AL">Anleggsleder</label>
               <input type="text" class="form-control" id="AL" placeholder="Anleggsleder">
             </div>
-        
+
             <div class="form-group">
               <label for="BAS">Formann / BAS</label>
               <input type="text" class="form-control" id="BAS" placeholder="Velg Formann/BAS">
             </div>
-        
+
             <div class="form-group">
               <label for="crew">Mannskap</label>
               <input type="text" class="form-control" id="crew" placeholder="Velg mannskap">
             </div>
           </div>
-        
-        
+
+
           <div id="fag" class="collapse">
             <form>
               <div class="row">
@@ -163,40 +170,41 @@
                   <div class="checkbox">
                     <label><input type="checkbox">Betong</label>
                   </div>
-        
+
                   <div class="checkbox">
                     <label><input type="checkbox">Bru</label>
                   </div>
-        
+
                   <div class="checkbox">
                     <label><input type="checkbox">Bru</label>
                   </div>
-        
+
                   <div class="checkbox">
                     <label><input type="checkbox">P-Hus</label>
                   </div>
                 </div>
-        
+
                 <div class="col-sm">
                   <div class="checkbox">
                     <label><input type="checkbox">Stillas</label>
                   </div>
-        
+
                   <div class="checkbox">
                     <label><input type="checkbox">Fasade</label>
                   </div>
-        
+
                   <div class="checkbox">
                     <label><input type="checkbox">Annet</label>
                   </div>
                 </div>
-        
-        
+
+
             </form>
           </div>
         </div>
+      
     </main>
-    
+
     <script>
       $.get('js/event.js')
     </script>
