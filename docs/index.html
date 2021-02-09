@@ -55,6 +55,7 @@
               </ul>
             </div>
           </nav>
+
           <!--Hovedinnholdet-->
           <div id="generelt" class="collapse show">
             <form>
@@ -79,23 +80,24 @@
               </div>
 
               <div class="form-group">
-                <label for="ammount">Anbudssum</label>
+                <label for="ammount">Estimert anbudssum</label>
                 <input type="text" class="form-control" id="ammount" placeholder="Skriv inn estimert anbudssum">
               </div>
 
               <div class="form-group">
                 <label for="anbudsdato">Anbudsfrist</label>
                 <input type="text" class="form-control" id="anbudsdato" placeholder="Velg frist for å levere anbud">
+                <p class="small">Denne datoen bør legges i Outlook kalenderen til anbudsansvarlig</p>
               </div>
 
               <div class="form-group">
                 <label for="StartDato">Oppstart</label>
-                <input type="text" class="form-control" id="StartDato" placeholder="Velg oppstartsdato">
+                <input type="text" class="form-control" id="StartDato" placeholder="Velg oppstartsdato for prosjekt">
               </div>
 
               <div class="form-group">
                 <label for="StartDato">Ferdigstillelse</label>
-                <input type="text" class="form-control" id="StartDato" placeholder="Velg ferdigdato">
+                <input type="text" class="form-control" id="StartDato" placeholder="Velg ferdigdato for prosjekt">
               </div>
 
               <div class="form-group">
@@ -148,29 +150,35 @@
           </div>
 
           <div id="personell" class="collapse">
+            <p>Denne siden styrer tilgangene</p>
             <div class="form-group">
               <label for="PL">Anbudsansvarlig</label>
               <input type="text" class="form-control" id="PL" placeholder="Den som er ansvarlig for anbudet">
+              <p>Tilsvarer prosjekt administrator, samme tilgangsnivå</p>
             </div>
 
             <div class="form-group">
               <label for="PL">Prosjektleder</label>
               <input type="text" class="form-control" id="PL" placeholder="Prosjektleder">
+              <p>Tilsvarer prosjekt administrator, samme tilgangsnivå</p>
             </div>
 
             <div class="form-group">
               <label for="AL">Anleggsleder</label>
               <input type="text" class="form-control" id="AL" placeholder="Anleggsleder">
+              <p>Tilsvarer prosjekt administrator, samme tilgangsnivå</p>
             </div>
 
             <div class="form-group">
               <label for="BAS">Formann / BAS</label>
               <input type="text" class="form-control" id="BAS" placeholder="Velg Formann/BAS">
+              <p>Tilsvarer "Contribute Users", samme tilgangsnivå</p>
             </div>
 
             <div class="form-group">
               <label for="crew">Mannskap</label>
               <input type="text" class="form-control" id="crew" placeholder="Velg mannskap">
+              <p>Ingen tilganger på disse, skal ikke se prosjektet</p>
             </div>
 
             <p>Disse vil styre tilganger, Formenn/BAS vil f.eks. kun se prosjekter de er en del av. Og prosjektleder anleggsleder kan f.eks. kun redigere prosjekter de er medlem av.</p>
@@ -179,6 +187,24 @@
 
           <div id="fag" class="collapse">
             <form>
+              <div class="form-group">
+                <label for="kontrakt">Tema</label>
+                <select type="text" class="form-control" id="kontrakt">
+                  <option>Bru</option>
+                  <option>Bane</option>
+                  <option>Fasade</option>
+                  <option>P-Hus</option>
+                  <option>Kraft | Industri | Kai</option>
+                  <option>Stillas</option>
+                  <option>Diverse</option>
+                </select>
+                <p>Vurdere å heller har en egne kriterier basert på disse, skal være mulig å få samlet informasjon basert på
+                  kunde, sjekkboksene under og beskrivelse.
+                </p>
+
+                <p>Se på muligheter i PowerBI, og hvordan rapportene kommer opp der.</p>
+              </div>
+
               <div class="row">
                 <div class="col-sm">
                   <div class="checkbox">
