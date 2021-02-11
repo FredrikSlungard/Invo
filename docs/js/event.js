@@ -20,21 +20,24 @@ $(document).on('click', '.nav-main', function (e) {
   switch ($(this).attr('id')) {
 
     case 'navProsjektSkjema':
-      $('#kontaktSkjema, #firmaSkjema').empty();
+      $('#kontaktSkjema, #firmaSkjema,  #prosjektSide').empty();
       $('#prosjektSkjema').load('html/prosjektSkjema.html');
       break;
 
     case 'navKontaktSkjema':
-      $('#prosjektSkjema,  #firmaSkjema').empty();
+      $('#prosjektSkjema,  #firmaSkjema, #prosjektSide').empty();
       $('#kontaktSkjema').load('html/kontaktSkjema.html'); 
       break;
 
     case 'navFirmaSkjema':
-      $('#prosjektSkjema,  #kontaktSkjema').empty();
-      $('#firmaSkjema').load('html/firmaSkjema.html'); 
+      $('#prosjektSkjema,  #kontaktSkjema, #prosjektSide').empty();
+      $('#prosjektSide').load('html/firmaskjema.html'); 
       break;
-  };
-
   
+    /*case 'navProsjektSide':
+      $('#prosjektSkjema,  #kontaktSkjema, #prosjektSide').empty();
+      $('#prosjektSide').load('html/prosjektSide.html'); 
+      break;*/
+  };
 
 });
