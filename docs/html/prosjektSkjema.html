@@ -1,10 +1,8 @@
-<div>
-  <h2>Prosjektskjema</h2>
-  <p>Eksempelet under viser hvordan prosjektskjemaet kan se ut, dette er ikke en nøyaktig fremstilling med tanke på
-    design og funksjonalitet.</p>
-  <div class="navbar navbar-expand-lg navbar-light bg-light">
-
-
+<h2>Prosjektskjema</h2>
+<p>Viser hvordan prosjektskjemaet kan se ut, ikke en nøyaktig fremstilling med tanke på
+  design og funksjonalitet.</p>
+<hr>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -13,28 +11,29 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" onclick="showGenerelt()" href="#">Generelt <span class="sr-only">(current)</span></a>
+          <a class="nav-link nav-Pro" href="#generelt">Generelt</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link nav-Pro" href="#adresse">Adresse</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#" onclick="showKunde()">Kunde</a>
+          <a class="nav-link nav-Pro" href="#kunde">Kunde</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#" onclick="showPersonell()">Personell</a>
+          <a class="nav-link nav-Pro" href="#personell">Personell</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#" onclick="showFag()">Fag</a>
+          <a class="nav-link nav-Pro" href="#fag">Fag</a>
         </li>
+
+
       </ul>
-
-      <form hidden="true" class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
-  </div>
+  </nav>
 
   <!--Hovedinnholdet-->
   <div id="generelt" class="collapse show">
@@ -50,28 +49,34 @@
       </div>
 
       <div class="form-group">
-        <label for="ammount">Estimert pris</label>
-        <input type="text" class="form-control" id="ammount" placeholder="Anbudssum">
+        <label for="NS">Kontraktsform</label>
+        <select type="text" class="form-control" id="NS">
+          <option>NS3405</option>
+          <option>NS3406</option>
+          <option>NS3407</option>
+          <option>NS3408</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="ammount">Estimert anbudssum</label>
+        <input type="text" class="form-control" id="ammount" placeholder="Skriv inn estimert anbudssum">
       </div>
 
       <div class="form-group">
         <label for="anbudsdato">Anbudsfrist</label>
         <input type="text" class="form-control" id="anbudsdato" placeholder="Velg frist for å levere anbud">
+        <p class="small">Denne datoen bør legges i Outlook kalenderen til anbudsansvarlig</p>
       </div>
 
       <div class="form-group">
         <label for="StartDato">Oppstart</label>
-        <input type="text" class="form-control" id="StartDato" placeholder="Velg oppstartsdato">
+        <input type="text" class="form-control" id="StartDato" placeholder="Velg oppstartsdato for prosjekt">
       </div>
 
       <div class="form-group">
-        <label for="kontrakt">Kontraktsform</label>
-        <select type="text" class="form-control" id="kontrakt">
-          <option>NS1</option>
-          <option>NS2</option>
-          <option>NS3</option>
-          <option>NS4</option>
-        </select>
+        <label for="Ferdigstillelse">Ferdigstillelse</label>
+        <input type="text" class="form-control" id="Ferdigstillelse" placeholder="Velg ferdigdato for prosjekt">
       </div>
 
       <div class="form-group">
@@ -87,10 +92,19 @@
         <label><input type="checkbox">Lag i støttesystem</label>
         <p class="small">Opprett prosjekt i støttesystem (Zirius, smartdok osv.)</p>
       </div>
+
+      <div class="checkbox">
+        <label><input type="checkbox">Arkiver prosjet</label>
+        <p class="small">Arkiver prosjektet når du er ferdig, prosjektet vil da kunne benyttes som referanse.
+        </p>
+      </div>
     </form>
   </div>
 
-
+  <div id="adresse" class="collapse">
+    <img src="img/Adresse.JPG" alt="Bilde av adressemodulen i Invo">
+    <p>Bruker samme modul som i Kontaktmodulen, med unntak av "Other adress"</p>
+  </div>
   <div id="kunde" class="collapse">
     <div class="form-group">
       <label for="firma">Byggherre</label>
@@ -104,37 +118,69 @@
 
     <div class="form-group">
       <label for="konsulent">Konsulenter</label>
-      <input type="text" class="form-control" id="konsulent" placeholder="Søk etter konsulent">
+      <input type="text" class="form-control" id="konsulent" placeholder="Søk etter firma">
+    </div>
+
+    <div class="form-group">
+      <label for="konsulent">Entreprenører</label>
+      <input type="text" class="form-control" id="entreprenør" placeholder="Søk etter firma">
     </div>
 
   </div>
 
-
   <div id="personell" class="collapse">
+    <p>Denne siden styrer tilgangene</p>
+    <div class="form-group">
+      <label for="Anbudsansvarlig">Anbudsansvarlig</label>
+      <input type="text" class="form-control" id="Anbudsansvarlig"
+        placeholder="Den som er ansvarlig for anbudet">
+      <p>Tilsvarer prosjekt administrator, samme tilgangsnivå</p>
+    </div>
+
     <div class="form-group">
       <label for="PL">Prosjektleder</label>
       <input type="text" class="form-control" id="PL" placeholder="Prosjektleder">
+      <p>Tilsvarer prosjekt administrator, samme tilgangsnivå</p>
     </div>
 
     <div class="form-group">
       <label for="AL">Anleggsleder</label>
       <input type="text" class="form-control" id="AL" placeholder="Anleggsleder">
+      <p>Tilsvarer prosjekt administrator, samme tilgangsnivå</p>
     </div>
 
     <div class="form-group">
       <label for="BAS">Formann / BAS</label>
       <input type="text" class="form-control" id="BAS" placeholder="Velg Formann/BAS">
+      <p>Tilsvarer "Contribute Users", samme tilgangsnivå</p>
     </div>
 
     <div class="form-group">
       <label for="crew">Mannskap</label>
       <input type="text" class="form-control" id="crew" placeholder="Velg mannskap">
+      <p>Ingen tilganger på disse, skal ikke se prosjektet</p>
     </div>
+
+    <p>Disse vil styre tilganger, Formenn/BAS vil f.eks. kun se prosjekter de er en del av. Og prosjektleder
+      anleggsleder kan f.eks. kun redigere prosjekter de er medlem av.</p>
   </div>
 
 
   <div id="fag" class="collapse">
     <form>
+      <div class="form-group">
+        <label for="kontrakt">Tema</label>
+        <select type="text" class="form-control" id="kontrakt">
+          <option>Bru</option>
+          <option>Bane</option>
+          <option>Fasade</option>
+          <option>P-Hus</option>
+          <option>Kraft | Industri | Kai</option>
+          <option>Stillas</option>
+          <option>Diverse</option>
+        </select>
+      </div>
+
       <div class="row">
         <div class="col-sm">
           <div class="checkbox">
@@ -168,32 +214,17 @@
           </div>
         </div>
 
-
     </form>
+
+    <p>Vi kan legge til flere lister og avhengigheter som vi har idag. Invos anbefaling var at vi forsøkte å
+      holde det så enkelt som mulig. Både med tanke på brukerne, men også vedlikehold senere.</p>
   </div>
-</div>
 
+<hr>
+<h2>Endringer</h2>
 
-
-<script>
-  showGenerelt = () => {
-    $(".collapse").hide();
-    $('#generelt').show();
-  };
-
-  showKunde = () => {
-    $(".collapse").hide();
-    $('#kunde').show();
-  };
-
-  showPersonell = () => {
-    $(".collapse").hide();
-    $('#personell').show();
-  };
-
-  showFag = () => {
-    $(".collapse").hide();
-    $('#fag').show();
-  };
-
-</script>
+<p>Vurdere å legge til eget felt med fag, forsøker først å forhøre meg om det er like greit å sette opp
+  kriterier for å få ut</p>
+<p>Lagt til et eget felt med anbudsansvarlig</p>
+<p>Bør være mulig å sammenligne estimert anbudssum med faktisk prosjektsum, sjekker om det er hensiktsmessig å
+  hente dette ut fra Zirius.</p>

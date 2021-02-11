@@ -1,12 +1,40 @@
-// Laster inn innholdet
-$(document).on('click', '.nav-link', function (e) {
+// Laster inn innholdet i de ulike skjemaene
+$(document).on('click', '.nav-Pro', function (e) {
+  'use strict';
+
+  e.preventDefault();
+    let allCollapsible = $('.collapse');
+    let href = $(this).attr('href');
+  
+    allCollapsible.removeClass('show');
+    $(href).addClass('show');
+
+});
+
+// Laster inn skjemaene
+$(document).on('click', '.nav-main', function (e) {
   'use strict';
 
   e.preventDefault();
 
-  let allCollapsible = $('.collapse');
-  let href = $(this).attr('href');
+  switch ($(this).attr('id')) {
 
-  allCollapsible.removeClass('show');
-  $(href).addClass('show');
+    case 'navProsjektSkjema':
+      $('#kontaktSkjema, #firmaSkjema').empty();
+      $('#prosjektSkjema').load('html/prosjektSkjema.html');
+      break;
+
+    case 'navKontaktSkjema':
+      $('#prosjektSkjema,  #firmaSkjema').empty();
+      $('#kontaktSkjema').load('html/kontaktSkjema.html'); 
+      break;
+
+    case 'navFirmaSkjema':
+      $('#prosjektSkjema,  #kontaktSkjema').empty();
+      $('#firmaSkjema').load('html/firmaSkjema.html'); 
+      break;
+  };
+
+  
+
 });

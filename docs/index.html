@@ -16,245 +16,41 @@
 
 <body>
   <div class="container">
-    <main>
-      <h2>Prosjektskjema</h2>
-      <p>Viser hvordan prosjektskjemaet kan se ut, ikke en nøyaktig fremstilling med tanke på
-        design og funksjonalitet.</p>
-      <hr>
-      
-        <div>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#generelt">Generelt</a>
-                </li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link nav-main" href="#Prosjektskjema" id="navProsjektSkjema">Prosjekt</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link nav-main" href="#KontaktSkjema" id="navKontaktSkjema">Kontakt</a>
+          </li>
 
-                <li class="nav-item active">
-                  <a class="nav-link" href="#adresse">Adresse</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#kunde">Kunde</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#personell">Personell</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="#fag">Fag</a>
-                </li>
+          <li class="nav-item">
+            <a class="nav-link nav-main" href="#firmaSkjema" id="navFirmaSkjema">Firma</a>
+          </li>
+  
+        </ul>
+      </div>
+    </nav>
 
 
-              </ul>
-            </div>
-          </nav>
+      <main>
+        <div id="prosjektSkjema"></div>
+        <div id="kontaktSkjema"></div>
+        <div id="firmaSkjema"></div>
+      </main>
+    </div>
+      <script>
+        $('#prosjektSkjema').load('html/prosjektSkjema.html')
+        $.get('js/event.js')
+      </script>
 
-          <!--Hovedinnholdet-->
-          <div id="generelt" class="collapse show">
-            <form>
-              <div class="form-group">
-                <label for="tittel">Tittel</label>
-                <input type="text" class="form-control" id="tittel" placeholder="Tittel">
-              </div>
-
-              <div class="form-group">
-                <label for="beskrivelse">Beskrivelse</label>
-                <textarea class="form-control" rows="3" placeholder="Gi en beskrivelse"></textarea>
-              </div>
-
-              <div class="form-group">
-                <label for="kontrakt">Kontraktsform</label>
-                <select type="text" class="form-control" id="kontrakt">
-                  <option>NS3405</option>
-                  <option>NS3406</option>
-                  <option>NS3407</option>
-                  <option>NS3408</option>
-                </select>
-              </div>
-
-              <div class="form-group">
-                <label for="ammount">Estimert anbudssum</label>
-                <input type="text" class="form-control" id="ammount" placeholder="Skriv inn estimert anbudssum">
-              </div>
-
-              <div class="form-group">
-                <label for="anbudsdato">Anbudsfrist</label>
-                <input type="text" class="form-control" id="anbudsdato" placeholder="Velg frist for å levere anbud">
-                <p class="small">Denne datoen bør legges i Outlook kalenderen til anbudsansvarlig</p>
-              </div>
-
-              <div class="form-group">
-                <label for="StartDato">Oppstart</label>
-                <input type="text" class="form-control" id="StartDato" placeholder="Velg oppstartsdato for prosjekt">
-              </div>
-
-              <div class="form-group">
-                <label for="StartDato">Ferdigstillelse</label>
-                <input type="text" class="form-control" id="StartDato" placeholder="Velg ferdigdato for prosjekt">
-              </div>
-
-              <div class="form-group">
-                <label for="status">Status</label>
-                <select type="text" class="form-control" id="status">
-                  <option>Anbud</option>
-                  <option>Prosjekt</option>
-                  <option>Ettermarked</option>
-                </select>
-              </div>
-
-              <div class="checkbox">
-                <label><input type="checkbox">Lag i støttesystem</label>
-                <p class="small">Opprett prosjekt i støttesystem (Zirius, smartdok osv.)</p>
-              </div>
-
-              <div class="checkbox">
-                <label><input type="checkbox">Arkiver prosjet</label>
-                <p class="small">Arkiver prosjektet når du er ferdig, prosjektet vil da kunne benyttes som referanse.
-                </p>
-              </div>
-            </form>
-          </div>
-
-          <div id="adresse" class="collapse">
-            <img src="img/Adresse.JPG" alt="Bilde av adressemodulen i Invo">
-            <p>Bruker samme modul som i Kontaktmodulen, med unntak av "Other adress"</p>
-          </div>
-          <div id="kunde" class="collapse">
-            <div class="form-group">
-              <label for="firma">Byggherre</label>
-              <input type="text" class="form-control" id="firma" placeholder="Søk etter firma">
-            </div>
-
-            <div class="form-group">
-              <label for="kontaktperson">Byggherres kontaktperson</label>
-              <input type="text" class="form-control" id="kontaktperson" placeholder="Søk etter navn">
-            </div>
-
-            <div class="form-group">
-              <label for="konsulent">Konsulenter</label>
-              <input type="text" class="form-control" id="konsulent" placeholder="Søk etter firma">
-            </div>
-
-            <div class="form-group">
-              <label for="konsulent">Entreprenører</label>
-              <input type="text" class="form-control" id="entreprenør" placeholder="Søk etter firma">
-            </div>
-
-          </div>
-
-          <div id="personell" class="collapse">
-            <p>Denne siden styrer tilgangene</p>
-            <div class="form-group">
-              <label for="PL">Anbudsansvarlig</label>
-              <input type="text" class="form-control" id="PL" placeholder="Den som er ansvarlig for anbudet">
-              <p>Tilsvarer prosjekt administrator, samme tilgangsnivå</p>
-            </div>
-
-            <div class="form-group">
-              <label for="PL">Prosjektleder</label>
-              <input type="text" class="form-control" id="PL" placeholder="Prosjektleder">
-              <p>Tilsvarer prosjekt administrator, samme tilgangsnivå</p>
-            </div>
-
-            <div class="form-group">
-              <label for="AL">Anleggsleder</label>
-              <input type="text" class="form-control" id="AL" placeholder="Anleggsleder">
-              <p>Tilsvarer prosjekt administrator, samme tilgangsnivå</p>
-            </div>
-
-            <div class="form-group">
-              <label for="BAS">Formann / BAS</label>
-              <input type="text" class="form-control" id="BAS" placeholder="Velg Formann/BAS">
-              <p>Tilsvarer "Contribute Users", samme tilgangsnivå</p>
-            </div>
-
-            <div class="form-group">
-              <label for="crew">Mannskap</label>
-              <input type="text" class="form-control" id="crew" placeholder="Velg mannskap">
-              <p>Ingen tilganger på disse, skal ikke se prosjektet</p>
-            </div>
-
-            <p>Disse vil styre tilganger, Formenn/BAS vil f.eks. kun se prosjekter de er en del av. Og prosjektleder anleggsleder kan f.eks. kun redigere prosjekter de er medlem av.</p>
-          </div>
-
-
-          <div id="fag" class="collapse">
-            <form>
-              <div class="form-group">
-                <label for="kontrakt">Tema</label>
-                <select type="text" class="form-control" id="kontrakt">
-                  <option>Bru</option>
-                  <option>Bane</option>
-                  <option>Fasade</option>
-                  <option>P-Hus</option>
-                  <option>Kraft | Industri | Kai</option>
-                  <option>Stillas</option>
-                  <option>Diverse</option>
-                </select>
-                <p>Vurdere å heller har en egne kriterier basert på disse, skal være mulig å få samlet informasjon basert på
-                  kunde, sjekkboksene under og beskrivelse.
-                </p>
-
-                <p>Se på muligheter i PowerBI, og hvordan rapportene kommer opp der.</p>
-              </div>
-
-              <div class="row">
-                <div class="col-sm">
-                  <div class="checkbox">
-                    <label><input type="checkbox">Betong</label>
-                  </div>
-
-                  <div class="checkbox">
-                    <label><input type="checkbox">Bru</label>
-                  </div>
-
-                  <div class="checkbox">
-                    <label><input type="checkbox">Bru</label>
-                  </div>
-
-                  <div class="checkbox">
-                    <label><input type="checkbox">P-Hus</label>
-                  </div>
-                </div>
-
-                <div class="col-sm">
-                  <div class="checkbox">
-                    <label><input type="checkbox">Stillas</label>
-                  </div>
-
-                  <div class="checkbox">
-                    <label><input type="checkbox">Fasade</label>
-                  </div>
-
-                  <div class="checkbox">
-                    <label><input type="checkbox">Annet</label>
-                  </div>
-                </div>
-
-            </form>
-
-            <p>Vi kan legge til flere lister og avhengigheter som vi har idag. Invos anbefaling var at vi forsøkte å holde det så enkelt som mulig. Både med tanke på brukerne, men også vedlikehold senere.</p>
-          </div>
-        </div>
-      
-      <hr>
-      <h2>Endringer</h2>
-      
-        <p>Vurdere å legge til eget felt med fag, forsøker først å forhøre meg om det er like greit å sette opp kriterier for å få ut</p>
-        <p>Lagt til et eget felt med anbudsansvarlig</p>
-        <p>Bør være mulig å sammenligne estimert anbudssum med faktisk prosjektsum, sjekker om det er hensiktsmessig å hente dette ut fra Zirius.</p>
-      
-    </main>
-
-    <script>
-      $.get('js/event.js')
-    </script>
-  </div>
 </body>

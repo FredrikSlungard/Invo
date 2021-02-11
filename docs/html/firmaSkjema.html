@@ -1,0 +1,80 @@
+<h2>Firma - Skjema</h2>
+<p>Viser hvordan skjema for firma kan se ut, ikke en nøyaktig fremstilling med tanke på
+  design og funksjonalitet.</p>
+<hr>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link nav-Pro" href="#generelt">Generelt</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link nav-Pro" href="#adresse">Adresse</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-Pro" href="#notat">Notater</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-Pro" href="#firmaInfo">Firmainformasjon</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!--Hovedinnholdet-->
+  <div id="generelt" class="collapse show">
+    <img src="img/firmaGenerelt.JPG">
+    <p>Samme modul som i Invo</p>
+  </div>
+
+  <div id="adresse" class="collapse">
+    <img src="img/Adresse.JPG" alt="Bilde av adressemodulen i Invo">
+    <p>Bruker samme modul som i Invo</p>
+  </div>
+
+  <div id="notat" class="collapse">
+    <img src="img/Notater.JPG" alt="Bilde av notatfelt i Invo">
+    <p>Samme som i Invo</p>
+  </div>
+
+  <div id="firmaInfo" class="collapse">
+    <p>Samle informasjon og vurderinger fra Startbank, dette kan være gokdjent/ikke gokdjent som leverandør</p>
+    <a href="https://search.startbank.no/Search/Upgrade/SearchResults.aspx">Lenke til firmaet i Startbank, evt. lenke til Startbank</a>
+    
+    <div class="form-group">
+      <label for="kvalitet">Kvalitet</label>
+      <input type="number" class="form-control" id="kvalitet" placeholder="Velg tall 0-10">
+    </div>
+
+    <div class="form-group">
+      <label for="pris">Pris</label>
+      <input type="number" class="form-control" id="pris" placeholder="Velg tall 0-10">
+    </div>
+
+    <div class="form-group">
+      <label for="service">Service</label>
+      <input type="number" class="form-control" id="service" placeholder="Velg tall 0-10">
+    </div>
+
+    <div class="form-group">
+      <label for="totalScore">Totaltscore (Gjennomsnitt av kriterier)</label>
+      <input type="number" class="form-control" id="totalScore">
+    </div>
+
+    <div class="form-group">
+      <label for="vedlegg">Vedlegg (Kontrakter) ++</label>
+      <input type="file" class="form-control" id="vedlegg">
+    </div>
+
+  </div>
+
+<hr>
