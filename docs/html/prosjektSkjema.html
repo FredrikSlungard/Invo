@@ -10,8 +10,12 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link nav-Pro" href="#generelt">Generelt</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link nav-Pro" href="#econ">Økonomi</a>
         </li>
 
         <li class="nav-item active">
@@ -59,16 +63,6 @@
       </div>
 
       <div class="form-group">
-        <label for="ammount">Estimert anbudssum</label>
-        <input type="text" class="form-control" id="ammount" placeholder="Skriv inn estimert anbudssum">
-      </div>
-
-      <div class="form-group">
-        <label for="exactAmmt">Prosjektsum</label>
-        <input type="text" class="form-control" id="exactAmmt" placeholder="Fakisk prosjektsum, denne må skjules i starten (indirekte referanse?)">
-      </div>
-
-      <div class="form-group">
         <label for="anbudsdato">Anbudsfrist</label>
         <input type="text" class="form-control" id="anbudsdato" placeholder="Velg frist for å levere anbud">
         <p class="small">Denne datoen bør legges i Outlook kalenderen til anbudsansvarlig</p>
@@ -103,6 +97,31 @@
         <p class="small">Arkiver prosjektet når du er ferdig, prosjektet vil da kunne benyttes som referanse.
         </p>
       </div>
+    </form>
+  </div>
+
+  <div id="econ" class="collapse">
+    <form>
+      <div class="form-group">
+        <label for="estAnbud">Estimert anbudssum</label>
+        <input type="text" class="form-control" id="estAnbud" placeholder="Skriv inn estimert anbudssum">
+      </div>
+
+      <div class="form-group">
+        <label for="inntekt">Inntekter</label>
+        <input type="text" class="form-control" id="inntekt" placeholder="Inntekter hentes fra økonomisystem">
+      </div>
+
+      <div class="form-group">
+        <label for="utgifter">Utgifter</label>
+        <input type="text" class="form-control" id="utgifter" placeholder="Utgifter hentes fra økonomisystem">
+      </div>
+
+      <div class="form-group">
+        <label for="UE">UE-Andel</label>
+        <input type="text" class="form-control" id="UE" placeholder="Skriv inn sum av UE-arbeider">
+      </div>
+   
     </form>
   </div>
 
