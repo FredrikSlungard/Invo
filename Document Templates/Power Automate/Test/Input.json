@@ -1,0 +1,375 @@
+[
+  {
+      "@odata.etag": "\"7\"",
+      "ItemInternalId": "1",
+      "ID": 1,
+      "Title": "Invo malfletting",
+      "Modified": "2021-09-27T08:02:28Z",
+      "Editor": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+          "Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+          "DisplayName": "Fredrik Slungård",
+          "Email": "fredrik.slungaard@consolvo.no",
+          "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=fredrik.slungaard@consolvo.no",
+          "Department": "",
+          "JobTitle": "Anleggsleder"
+      },
+      "Editor#Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+      "TemplateTab": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+              "Id": 3,
+              "Value": "Maler"
+          }
+      ],
+      "TemplateTab@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+      "TemplateTab#Id": [
+          3
+      ],
+      "TemplateTab#Id@odata.type": "#Collection(Int64)",
+      "TemplateType": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+              "Id": 0,
+              "Value": "Projects"
+          }
+      ],
+      "TemplateType@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+      "TemplateType#Id": [
+          0
+      ],
+      "TemplateType#Id@odata.type": "#Collection(Int64)",
+      "DocumentOwner": [],
+      "DocumentOwner@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+      "DocumentOwner#Claims": [],
+      "DocumentOwner#Claims@odata.type": "#Collection(String)",
+      "DocumentApprover": [],
+      "DocumentApprover@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+      "DocumentApprover#Claims": [],
+      "DocumentApprover#Claims@odata.type": "#Collection(String)",
+      "Created": "2020-10-23T09:05:33Z",
+      "Author": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+          "Claims": "i:0#.f|membership|invo.admin@consolvo.no",
+          "DisplayName": "Invo Admin",
+          "Email": "invo.admin@consolvo.no",
+          "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=invo.admin@consolvo.no",
+          "Department": null,
+          "JobTitle": null
+      },
+      "Author#Claims": "i:0#.f|membership|invo.admin@consolvo.no",
+      "OData__DisplayName": "",
+      "{Identifier}": "DocumentTemplates%252fInvo%2bdokumenter%252fInvo%2bmalfletting.docx",
+      "{IsFolder}": false,
+      "{Thumbnail}": {
+          "Large": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQX3ZVJFUBMOT5NGKQI2E4JWASXDP%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=800&height=800",
+          "Medium": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQX3ZVJFUBMOT5NGKQI2E4JWASXDP%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=176&height=176",
+          "Small": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQX3ZVJFUBMOT5NGKQI2E4JWASXDP%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=96&height=96"
+      },
+      "{Link}": "https://asconsolvo.sharepoint.com/sites/home/DocumentTemplates/Invo%20dokumenter/Invo%20malfletting.docx?d=w404baa79d3b14ceba82344e26c095c6f",
+      "{Name}": "Invo malfletting",
+      "{FilenameWithExtension}": "Invo malfletting.docx",
+      "{Path}": "DocumentTemplates/Invo dokumenter/",
+      "{FullPath}": "DocumentTemplates/Invo dokumenter/Invo malfletting.docx",
+      "{ContentType}": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+          "Id": "0x010100BBF4E8E802AD1349BA0651C310DBAA48",
+          "Name": "Document"
+      },
+      "{ContentType}#Id": "0x010100BBF4E8E802AD1349BA0651C310DBAA48",
+      "{IsCheckedOut}": false,
+      "{VersionNumber}": "6.0"
+  },
+  {
+      "@odata.etag": "\"27\"",
+      "ItemInternalId": "760",
+      "ID": 760,
+      "Title": "A prosjektdokument",
+      "Modified": "2021-09-16T13:20:58Z",
+      "Editor": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+          "Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+          "DisplayName": "Fredrik Slungård",
+          "Email": "fredrik.slungaard@consolvo.no",
+          "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=fredrik.slungaard@consolvo.no",
+          "Department": "",
+          "JobTitle": "Anleggsleder"
+      },
+      "Editor#Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+      "TemplateTab": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+              "Id": 3,
+              "Value": "Maler"
+          }
+      ],
+      "TemplateTab@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+      "TemplateTab#Id": [
+          3
+      ],
+      "TemplateTab#Id@odata.type": "#Collection(Int64)",
+      "TemplateType": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+              "Id": 0,
+              "Value": "Projects"
+          }
+      ],
+      "TemplateType@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+      "TemplateType#Id": [
+          0
+      ],
+      "TemplateType#Id@odata.type": "#Collection(Int64)",
+      "DocumentOwner": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+              "Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+              "DisplayName": "Fredrik Slungård",
+              "Email": "fredrik.slungaard@consolvo.no",
+              "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=fredrik.slungaard@consolvo.no",
+              "Department": null,
+              "JobTitle": "Anleggsleder"
+          }
+      ],
+      "DocumentOwner@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+      "DocumentOwner#Claims": [
+          "i:0#.f|membership|fredrik.slungaard@consolvo.no"
+      ],
+      "DocumentOwner#Claims@odata.type": "#Collection(String)",
+      "DocumentApprover": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+              "Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+              "DisplayName": "Fredrik Slungård",
+              "Email": "fredrik.slungaard@consolvo.no",
+              "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=fredrik.slungaard@consolvo.no",
+              "Department": null,
+              "JobTitle": "Anleggsleder"
+          }
+      ],
+      "DocumentApprover@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+      "DocumentApprover#Claims": [
+          "i:0#.f|membership|fredrik.slungaard@consolvo.no"
+      ],
+      "DocumentApprover#Claims@odata.type": "#Collection(String)",
+      "TestDate": "2021-03-18T23:00:00Z",
+      "Created": "2021-03-18T13:49:59Z",
+      "Author": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+          "Claims": "i:0#.f|membership|invo.admin@consolvo.no",
+          "DisplayName": "Invo Admin",
+          "Email": "invo.admin@consolvo.no",
+          "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=invo.admin@consolvo.no",
+          "Department": null,
+          "JobTitle": null
+      },
+      "Author#Claims": "i:0#.f|membership|invo.admin@consolvo.no",
+      "OData__DisplayName": "",
+      "{Identifier}": "DocumentTemplates%252fInvo%2bdokumenter%252fA%2bprosjektdokument.docx",
+      "{IsFolder}": false,
+      "{Thumbnail}": {
+          "Large": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQXY3R2WTFAGKSVALAL4D7DTCD2E4%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=800&height=800",
+          "Medium": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQXY3R2WTFAGKSVALAL4D7DTCD2E4%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=176&height=176",
+          "Small": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQXY3R2WTFAGKSVALAL4D7DTCD2E4%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=96&height=96"
+      },
+      "{Link}": "https://asconsolvo.sharepoint.com/sites/home/DocumentTemplates/Invo%20dokumenter/A%20prosjektdokument.docx?d=w32ad8e1bca804095b02f83f8e621e89c",
+      "{Name}": "A prosjektdokument",
+      "{FilenameWithExtension}": "A prosjektdokument.docx",
+      "{Path}": "DocumentTemplates/Invo dokumenter/",
+      "{FullPath}": "DocumentTemplates/Invo dokumenter/A prosjektdokument.docx",
+      "{ContentType}": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+          "Id": "0x010100BBF4E8E802AD1349BA0651C310DBAA48",
+          "Name": "Document"
+      },
+      "{ContentType}#Id": "0x010100BBF4E8E802AD1349BA0651C310DBAA48",
+      "{IsCheckedOut}": false,
+      "{VersionNumber}": "22.0"
+  },
+  {
+      "@odata.etag": "\"100\"",
+      "ItemInternalId": "1517",
+      "ID": 1517,
+      "Title": "Flettekoder",
+      "Modified": "2021-09-28T12:16:49Z",
+      "Editor": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+          "Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+          "DisplayName": "Fredrik Slungård",
+          "Email": "fredrik.slungaard@consolvo.no",
+          "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=fredrik.slungaard@consolvo.no",
+          "Department": "",
+          "JobTitle": "Anleggsleder"
+      },
+      "Editor#Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+      "TemplateTab": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+              "Id": 3,
+              "Value": "Maler"
+          }
+      ],
+      "TemplateTab@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+      "TemplateTab#Id": [
+          3
+      ],
+      "TemplateTab#Id@odata.type": "#Collection(Int64)",
+      "TemplateType": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+              "Id": 0,
+              "Value": "Projects"
+          }
+      ],
+      "TemplateType@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+      "TemplateType#Id": [
+          0
+      ],
+      "TemplateType#Id@odata.type": "#Collection(Int64)",
+      "DocumentType": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+          "Id": 0,
+          "Value": "Administrative"
+      },
+      "DocumentType#Id": 0,
+      "DocumentOwner": [],
+      "DocumentOwner@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+      "DocumentOwner#Claims": [],
+      "DocumentOwner#Claims@odata.type": "#Collection(String)",
+      "DocumentApprover": [],
+      "DocumentApprover@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+      "DocumentApprover#Claims": [],
+      "DocumentApprover#Claims@odata.type": "#Collection(String)",
+      "Created": "2021-09-16T09:42:42Z",
+      "Author": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+          "Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+          "DisplayName": "Fredrik Slungård",
+          "Email": "fredrik.slungaard@consolvo.no",
+          "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=fredrik.slungaard@consolvo.no",
+          "Department": null,
+          "JobTitle": "Anleggsleder"
+      },
+      "Author#Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+      "OData__DisplayName": "",
+      "{Identifier}": "DocumentTemplates%252fInvo%2bdokumenter%252fFlettekoder.docx",
+      "{IsFolder}": false,
+      "{Thumbnail}": {
+          "Large": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQX3C55ETWT2GLRALI6LDAJ2MOQTF%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=800&height=800",
+          "Medium": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQX3C55ETWT2GLRALI6LDAJ2MOQTF%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=176&height=176",
+          "Small": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQX3C55ETWT2GLRALI6LDAJ2MOQTF%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=96&height=96"
+      },
+      "{Link}": "https://asconsolvo.sharepoint.com/sites/home/DocumentTemplates/Invo%20dokumenter/Flettekoder.docx?d=w3b49ef62464f405cb479630274c74265",
+      "{Name}": "Flettekoder",
+      "{FilenameWithExtension}": "Flettekoder.docx",
+      "{Path}": "DocumentTemplates/Invo dokumenter/",
+      "{FullPath}": "DocumentTemplates/Invo dokumenter/Flettekoder.docx",
+      "{ContentType}": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+          "Id": "0x010100BBF4E8E802AD1349BA0651C310DBAA48",
+          "Name": "Document"
+      },
+      "{ContentType}#Id": "0x010100BBF4E8E802AD1349BA0651C310DBAA48",
+      "{IsCheckedOut}": false,
+      "{VersionNumber}": "30.0"
+  },
+  {
+      "@odata.etag": "\"7\"",
+      "ItemInternalId": "1518",
+      "ID": 1518,
+      "Title": "Testedokument",
+      "Modified": "2021-09-28T12:17:16Z",
+      "Editor": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+          "Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+          "DisplayName": "Fredrik Slungård",
+          "Email": "fredrik.slungaard@consolvo.no",
+          "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=fredrik.slungaard@consolvo.no",
+          "Department": "",
+          "JobTitle": "Anleggsleder"
+      },
+      "Editor#Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+      "TemplateTab": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+              "Id": 3,
+              "Value": "Maler"
+          }
+      ],
+      "TemplateTab@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+      "TemplateTab#Id": [
+          3
+      ],
+      "TemplateTab#Id@odata.type": "#Collection(Int64)",
+      "TemplateType": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+              "Id": 0,
+              "Value": "Projects"
+          }
+      ],
+      "TemplateType@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference)",
+      "TemplateType#Id": [
+          0
+      ],
+      "TemplateType#Id@odata.type": "#Collection(Int64)",
+      "DocumentType": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
+          "Id": 0,
+          "Value": "Administrative"
+      },
+      "DocumentType#Id": 0,
+      "DocumentOwner": [
+          {
+              "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+              "Claims": "i:0#.f|membership|kenneth.andersen@consolvo.no",
+              "DisplayName": "Kenneth Andersen",
+              "Email": "Kenneth.Andersen@consolvo.no",
+              "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=Kenneth.Andersen@consolvo.no",
+              "Department": null,
+              "JobTitle": "Avdelingsleder"
+          }
+      ],
+      "DocumentOwner@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+      "DocumentOwner#Claims": [
+          "i:0#.f|membership|kenneth.andersen@consolvo.no"
+      ],
+      "DocumentOwner#Claims@odata.type": "#Collection(String)",
+      "DocumentApprover": [],
+      "DocumentApprover@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
+      "DocumentApprover#Claims": [],
+      "DocumentApprover#Claims@odata.type": "#Collection(String)",
+      "Created": "2021-09-26T15:07:40Z",
+      "Author": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
+          "Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+          "DisplayName": "Fredrik Slungård",
+          "Email": "fredrik.slungaard@consolvo.no",
+          "Picture": "https://asconsolvo.sharepoint.com/sites/home/_layouts/15/UserPhoto.aspx?Size=L&AccountName=fredrik.slungaard@consolvo.no",
+          "Department": null,
+          "JobTitle": "Anleggsleder"
+      },
+      "Author#Claims": "i:0#.f|membership|fredrik.slungaard@consolvo.no",
+      "OData__DisplayName": "",
+      "{Identifier}": "DocumentTemplates%252fInvo%2bdokumenter%252fTestedokument.docx",
+      "{IsFolder}": false,
+      "{Thumbnail}": {
+          "Large": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQXZWIHPIYSZ5TVAYCWQD7VOEDTXS%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=800&height=800",
+          "Medium": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQXZWIHPIYSZ5TVAYCWQD7VOEDTXS%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=176&height=176",
+          "Small": "https://westeurope1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=docx&cs=fFNQTw&docid=https%3a%2f%2fasconsolvo.sharepoint.com%3a443%2f_api%2fv2.0%2fdrives%2fb!N83ujf-QcEeuflVH9rhZytya8QHjwXFEohGd43HjHqk9ganEWjXcSZoEup9mP_2C%2fitems%2f01WJINQXZWIHPIYSZ5TVAYCWQD7VOEDTXS%3fversion%3dPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXNjb25zb2x2by5zaGFyZXBvaW50LmNvbUAwYzZjYzRkMi1iY2ZhLTQxMzktYmU0Ni0wYjA4NjY1MDhiMWYiLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjMyOTA2MDAwIiwiZXhwIjoiMTYzMjkyNzYwMCIsImVuZHBvaW50dXJsIjoiNHRNNjhLT25TK25vNWhPcmtSSEI1cG4yVTRQOXlEOFhScUhPU2ZZTjNPWT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjExNyIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6Ik9HUmxaV05rTXpjdE9UQm1aaTAwTnpjd0xXRmxOMlV0TlRVME4yWTJZamcxT1dOaCIsImFwcF9kaXNwbGF5bmFtZSI6IkFwcCBTZXJ2aWNlIiwiZ2l2ZW5fbmFtZSI6IkZyZWRyaWsiLCJmYW1pbHlfbmFtZSI6IlNsdW5nw6VyZCIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxmcmVkcmlrLnNsdW5nYWFyZEBjb25zb2x2by5ubyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwODU1MWRmMmRAbGl2ZS5jb20iLCJzaGFyaW5naWQiOiI3YzcxOTU1My1jZWE3LTQyZDctOWYyNC1hMDRhOTcwYzA3MWMiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjpudWxsfQ.dWJ6K2pjTlorcTFiT2FlU2VxSjNEenVxU0ZiSWp3YXEvZ2hkVkhWZW1kdz0&width=96&height=96"
+      },
+      "{Link}": "https://asconsolvo.sharepoint.com/sites/home/DocumentTemplates/Invo%20dokumenter/Testedokument.docx?d=w8cde41363d4b419d815a03fd5c41cef2",
+      "{Name}": "Testedokument",
+      "{FilenameWithExtension}": "Testedokument.docx",
+      "{Path}": "DocumentTemplates/Invo dokumenter/",
+      "{FullPath}": "DocumentTemplates/Invo dokumenter/Testedokument.docx",
+      "{ContentType}": {
+          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
+          "Id": "0x010100BBF4E8E802AD1349BA0651C310DBAA48",
+          "Name": "Document"
+      },
+      "{ContentType}#Id": "0x010100BBF4E8E802AD1349BA0651C310DBAA48",
+      "{IsCheckedOut}": false,
+      "{VersionNumber}": "5.0"
+  }
+]
