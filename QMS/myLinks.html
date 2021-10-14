@@ -1,0 +1,35 @@
+
+                  <div id="my_links_container"></div>              
+                  <script type="text/javascript">
+                    Invo.Loader.getLoaderAsync().then(function(loader) {
+    //$(document).ready(function () {
+    //var docReadyPromise = loader.documentReady();
+    var links = loader.loadByKey("links");
+    Promise.all([ links]).then(function (values) {
+
+        //claimsbit explanation: i: user, alternatively c if group. f: form based auth, alternatively w for windows auth.
+        var claimsBit = Invo.Common.getClaimsBit();
+        var linksFilter = "LinkGroup eq 'My Links' and Author/Name eq '" + claimsBit + _spPageContextInfo.userLoginName + "'";
+        var linksSelect = "URL,LinkGroup,Author/Name";
+        var linksExpand = "Author";
+        Invo.Webparts.Links.createFromRemoteList({
+            relativeWebUrl: '/sites/home',
+            listName: 'Links',
+            linkFilter: linksFilter,
+            linkSelect: linksSelect,
+            linkExpand: linksExpand,
+            ContainerId: 'my_links_container',
+            toggleContainerHidden: '#my_links_container',
+            showThisWhenEmpty: {
+                LinkGroup: 'My Links',
+                URL: {
+                    Url: '/sites/home/Lists/Links/mylinks.aspx',
+                    Description: Invo.Strings.Add_Link_Here
+                }
+            }
+        });
+    });
+});
+
+                  </script>
+              
