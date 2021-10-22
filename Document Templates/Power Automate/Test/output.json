@@ -1,90 +1,35 @@
 {
-  "statusCode": 200,
+  "statusCode": 400,
   "headers": {
-    "Transfer-Encoding": "chunked",
-    "Vary": "Origin,Accept-Encoding",
-    "X-SharePointHealthScore": "3",
+    "Vary": "Origin",
+    "X-SharePointHealthScore": "1",
     "X-MS-SPConnector": "1",
     "X-SP-SERVERSTATE": "ReadOnly=0",
     "DATASERVICEVERSION": "3.0",
-    "SPClientServiceRequestDuration": "150",
-    "SPRequestGuid": "3d1e7003-6697-4532-9de1-238eaeda19c2",
-    "request-id": "3d1e7003-6697-4532-9de1-238eaeda19c2",
-    "MS-CV": "A3AePZdmMkWd4SOOrtoZwg.0",
+    "SPClientServiceRequestDuration": "45",
+    "SPRequestGuid": "d25cc6d9-5fd6-4482-85dc-a81892c4da93",
+    "request-id": "d25cc6d9-5fd6-4482-85dc-a81892c4da93",
+    "MS-CV": "2cZc0tZfgkSF3KgYksTakw.0",
     "Strict-Transport-Security": "max-age=31536000",
     "X-FRAME-OPTIONS": "SAMEORIGIN",
     "Content-Security-Policy": "frame-ancestors 'self' teams.microsoft.com *.teams.microsoft.com *.skype.com *.teams.microsoft.us local.teams.office.com *.powerapps.com *.yammer.com *.officeapps.live.com *.office.com *.stream.azure-test.net *.microsoftstream.com;",
-    "MicrosoftSharePointTeamServices": "16.0.0.21729",
+    "MicrosoftSharePointTeamServices": "16.0.0.21806",
     "X-Content-Type-Options": "nosniff",
     "X-MS-InvokeApp": "1; RequireReadOnly",
     "Timing-Allow-Origin": "*",
     "x-ms-apihub-cached-response": "false",
     "Cache-Control": "max-age=0, private",
-    "Date": "Wed, 13 Oct 2021 12:21:53 GMT",
+    "Date": "Thu, 21 Oct 2021 19:13:07 GMT",
     "P3P": "CP=\"ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI\"",
     "X-AspNet-Version": "4.0.30319",
     "X-Powered-By": "ASP.NET",
-    "Content-Type": "application/json; charset=utf-8",
-    "Expires": "Tue, 28 Sep 2021 12:21:53 GMT",
-    "Last-Modified": "Wed, 13 Oct 2021 12:21:53 GMT",
-    "Content-Length": "1971"
+    "Content-Length": "232",
+    "Content-Type": "application/json",
+    "Expires": "Wed, 06 Oct 2021 19:13:08 GMT",
+    "Last-Modified": "Thu, 21 Oct 2021 19:13:08 GMT"
   },
   "body": {
-    "value": [
-      {
-        "@odata.etag": "\"3\"",
-        "ItemInternalId": "122",
-        "ID": 122,
-        "Title": "invotest8",
-        "SiteLink": "https://asconsolvo.sharepoint.com/sites/project/invotest8",
-        "TenderDeadline": "2021-10-17T22:00:00Z",
-        "TenderResponsible": [],
-        "TenderResponsible@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
-        "TenderResponsible#Claims": [],
-        "TenderResponsible#Claims@odata.type": "#Collection(String)",
-        "ProjectStatus": {
-          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference",
-          "Id": 0,
-          "Value": "Anbud"
-        },
-        "ProjectStatus#Id": 0,
-        "SiteAdmin": [
-          {
-            "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser",
-            "Claims": "i:0#.f|membership|invo.admin@consolvo.no",
-            "DisplayName": "Invo Admin",
-            "Email": "invo.admin@consolvo.no",
-            "Picture": "https://asconsolvo.sharepoint.com/sites/project/_layouts/15/UserPhoto.aspx?Size=L&AccountName=invo.admin@consolvo.no",
-            "Department": null,
-            "JobTitle": null
-          }
-        ],
-        "SiteAdmin@odata.type": "#Collection(Microsoft.Azure.Connectors.SharePoint.SPListExpandedUser)",
-        "SiteAdmin#Claims": [
-          "i:0#.f|membership|invo.admin@consolvo.no"
-        ],
-        "SiteAdmin#Claims@odata.type": "#Collection(String)",
-        "{Identifier}": "Lists%252fSitelist%252f122_.000",
-        "{IsFolder}": false,
-        "{Thumbnail}": {
-          "Large": null,
-          "Medium": null,
-          "Small": null
-        },
-        "{Link}": "https://asconsolvo.sharepoint.com/sites/project/_layouts/15/listform.aspx?PageType=4&ListId=ca7ab078%2Dfea4%2D45ac%2Db318%2D1de58cabcd9c&ID=122&ContentTypeID=0x0100DF7601CFC02D9946A1046D4B515D1C1C001C33C0C3E6538B4B8A54F7A176E62744",
-        "{Name}": "invotest8",
-        "{FilenameWithExtension}": "invotest8",
-        "{Path}": "Lists/Sitelist/",
-        "{FullPath}": "Lists/Sitelist/122_.000",
-        "{ContentType}": {
-          "@odata.type": "#Microsoft.Azure.Connectors.SharePoint.SPListExpandedContentType",
-          "Id": "0x0100DF7601CFC02D9946A1046D4B515D1C1C001C33C0C3E6538B4B8A54F7A176E62744",
-          "Name": "Projectdefinition"
-        },
-        "{ContentType}#Id": "0x0100DF7601CFC02D9946A1046D4B515D1C1C001C33C0C3E6538B4B8A54F7A176E62744",
-        "{HasAttachments}": false,
-        "{VersionNumber}": "3.0"
-      }
-    ]
+    "status": 400,
+    "message": "The expression \"QaParentElement neq ''\" is not valid. Creating query failed.\r\nclientRequestId: d25cc6d9-5fd6-4482-85dc-a81892c4da93\r\nserviceRequestId: d25cc6d9-5fd6-4482-85dc-a81892c4da93"
   }
 }

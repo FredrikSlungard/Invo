@@ -1,0 +1,41 @@
+//Skjema som kan benyttes i JSON bygging i Power Automate, angir hvilke verdier og egenskaper som skal hentes ut
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "Navn": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "Navn"
+        ]
+    }
+}
+// Henter ut egenskaper fra person/gruppekolonne
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "@@odata.type": {
+                "type": "string"
+            },
+            "Claims": {
+                "type": "string"
+            },
+            "DisplayName": {
+                "type": "string"
+            },
+            "Email": {
+                "type": "string"
+            },
+            "Picture": {
+                "type": "string"
+            },
+            "Department": {},
+            "JobTitle": {}
+        }
+    }
+}

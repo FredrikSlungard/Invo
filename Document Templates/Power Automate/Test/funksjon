@@ -1,1 +1,1 @@
-concat(concat('TenderDeadline',' ge ', '''',outputs('Today_+_x_days')),'''',' and ', concat('TenderDeadline',' lt ','''', outputs('x_Days_+_1'),''''))
+addDays(utcnow(), int(outputs('Inaktivitet')), 'yyyy-MM-dd')
