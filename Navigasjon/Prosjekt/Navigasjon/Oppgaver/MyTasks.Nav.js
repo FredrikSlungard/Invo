@@ -1,10 +1,10 @@
-// Visningen i navigasjonen
+// Visningen i navigasjonen for mine oppgaver
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl !== params.ctx._spPageContextInfo.siteServerRelativeUrl; };
 var runFunction = function (params) { params.Navigation.switchOrNavigateTo(params.ctx._spPageContextInfo.webAbsoluteUrl + "/SitePages/home.aspx", "/home.aspx", "InvoTasksUI", true); };
 return {
-    "Title": "Alle Oppgaver",
+    "Title": "Mine Oppgaver",
     "Id": "InvoTasksUI",
-    "Order": 100,
+    "Order": 150,
     "ImageUrl": "https://invocdn.azureedge.net/images/modern2/tasks_outline.svg",
     "Type": "Function",
     "Condition": condition,
