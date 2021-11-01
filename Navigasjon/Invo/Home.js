@@ -2,14 +2,14 @@
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl === params.ctx._spPageContextInfo.siteServerRelativeUrl; }
 var runFunction = function (params) {
   const parentSite = 'https://asconsolvo.sharepoint.com/sites';
-  const moduleSite = '/home/quality/default.aspx';
+  const moduleSite = '/home/SitePages/home.aspx';
   location.href = parentSite + moduleSite;
 }
 return {
-  "Title": "QMS",
-  "Id": "InvoNavQualityAssurance",
-  Order: 200,
-  "ImageUrl": "https://invocdn.azureedge.net/images/modern2/quality.svg",
+  "Title": "Intranett",
+  "Id": "InvoNavHome",
+  Order: 100,
+  "ImageUrl": "https://invocdn.azureedge.net/images/modern2/home.svg",
   "Type": "Function",
   "Condition": condition,
   "RunFunction": runFunction,

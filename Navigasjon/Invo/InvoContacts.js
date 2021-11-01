@@ -1,15 +1,15 @@
-// Navigasjon til Invo QMS
+// Navigasjon til Invo kontakter
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl === params.ctx._spPageContextInfo.siteServerRelativeUrl; }
 var runFunction = function (params) {
   const parentSite = 'https://asconsolvo.sharepoint.com/sites';
-  const moduleSite = '/home/quality/default.aspx';
+  const moduleSite = '/contact/SitePages/home.aspx';
   location.href = parentSite + moduleSite;
 }
 return {
-  "Title": "QMS",
-  "Id": "InvoNavQualityAssurance",
-  Order: 200,
-  "ImageUrl": "https://invocdn.azureedge.net/images/modern2/quality.svg",
+  "Title": "Kontakter",
+  "Id": "InvoNavContacts",
+  Order: 400,
+  "ImageUrl": "https://invocdn.azureedge.net/images/modern2/company.svg",
   "Type": "Function",
   "Condition": condition,
   "RunFunction": runFunction,

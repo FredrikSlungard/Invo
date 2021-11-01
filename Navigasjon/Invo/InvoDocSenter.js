@@ -7,8 +7,8 @@ var runFunction = function (params) {
 }
 return {
   "Title": "Dokumentsenter",
-  "Id": "InvonavDocCenter",
-  Order: 200,
+  "Id": "InvoNavDocCenter",
+  Order: 300,
   "ImageUrl": "https://invocdn.azureedge.net/images/document2.png",
   "Type": "Function",
   "Condition": condition,
