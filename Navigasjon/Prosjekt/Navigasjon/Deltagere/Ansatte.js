@@ -4,7 +4,7 @@ var runFunction = function (params) {
 }
 return {
     "Title": "Ansatte",
-    "Order": 100,
+    "Order": 300,
     "ImageUrl": "https://invocdn.azureedge.net/images/modern2/contact_small.svg",
     "Type": "Function",
     "Condition": condition,

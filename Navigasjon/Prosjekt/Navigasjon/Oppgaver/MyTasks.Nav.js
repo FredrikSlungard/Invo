@@ -4,7 +4,7 @@ var runFunction = function (params) { params.Navigation.switchOrNavigateTo(param
 return {
     "Title": "Mine Oppgaver",
     "Id": "InvoTasksUI",
-    "Order": 150,
+    "Order": 100,
     "ImageUrl": "https://invocdn.azureedge.net/images/modern2/tasks_outline.svg",
     "Type": "Function",
     "Condition": condition,

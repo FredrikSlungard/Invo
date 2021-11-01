@@ -3,7 +3,7 @@ var condition = function (params) { return params.ctx._spPageContextInfo.webServ
 var runFunction = function (params) {
   const parentSite = 'https://asconsolvo.sharepoint.com/sites';
   const moduleSite = '/home/quality/default.aspx';
-  location.href = parentSite + moduleSite;
+  window.open(parentSite + moduleSite);
 }
 return {
   "Title": "QMS",
