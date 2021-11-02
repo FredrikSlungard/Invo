@@ -3,6 +3,7 @@ var condition = function (params) { return params.ctx._spPageContextInfo.webServ
 var runFunction = function (params) { 
     //params.Navigation.switchOrNavigateTo(params.ctx._spPageContextInfo.webAbsoluteUrl + "/SitePages/home.aspx", "/home.aspx", "InvoTasksUI", true);
     const destination = 'https://asconsolvo.sharepoint.com/sites/Invo/Lists/Oppgaver/AllItems.aspx'
+    window.open(destination)
 };
 
 return {
