@@ -1,9 +1,10 @@
 // Navigasjon til Invo QMS
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl === params.ctx._spPageContextInfo.siteServerRelativeUrl; }
 var runFunction = function (params) {
-  const parentSite = 'https://asconsolvo.sharepoint.com/sites';
-  const moduleSite = '/home/quality/default.aspx';
-  window.open(parentSite + moduleSite);
+  Invo.Forms.Qms.View.show();
+  //const parentSite = 'https://asconsolvo.sharepoint.com/sites';
+  //const moduleSite = '/home/quality/default.aspx';
+  //window.open(parentSite + moduleSite);
 }
 return {
   "Title": "QMS",
