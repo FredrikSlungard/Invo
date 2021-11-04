@@ -1,12 +1,10 @@
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl === params.ctx._spPageContextInfo.siteServerRelativeUrl; }
-var runFunction = function (params) { 
-  Invo.TreeView.Funcs.toggleElem("Dash"); 
-}
+var runFunction = function (params) { Invo.TreeView.Funcs.toggleElem("InvoArchivedProjects"); }
 return {
-    "Title": "Home",
-    "Id": "Dash",
-    Order: 100,
-    "ImageUrl": "https://invocdn.azureedge.net/images/modern2/home_small.svg",
+    "Title": "Arkiv",
+    "Id": "InvoArchivedProjects",
+    Order: 500,
+    "ImageUrl": "https://invocdn.azureedge.net/images/modern2/archived.svg",
     "Type": "Function",
     "Condition": condition,
     "RunFunction": runFunction,

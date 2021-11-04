@@ -3,14 +3,14 @@
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl == params.ctx._spPageContextInfo.siteServerRelativeUrl; }
 var runFunction = function (params) { params.Navigation.switchOrNavigateTo(params.ctx._spPageContextInfo.webServerRelativeUrl, "/home.aspx", "InvoMyProjects", false); }
 return {
-	"Title": "Prosjekter",
+	"Title": "Mine Prosjekter",
 	"Id": "InvoMyProjects",
-	Order: 300,
+	Order: 200,
 	"ImageUrl": "https://invocdn.azureedge.net/images/modern2/projects.svg",
 	"Type": "Function",
 	"Condition": condition,
 	"RunFunction": runFunction,
-	"GroupTitle": "Mine",
+	"GroupTitle": "",
 	GroupOrder: 100,
 	"GroupType": "Upper"
 };
