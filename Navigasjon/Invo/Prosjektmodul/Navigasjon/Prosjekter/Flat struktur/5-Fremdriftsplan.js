@@ -1,9 +1,14 @@
 // Visningen i navigasjonen for fremdriftsplanen
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl !== params.ctx._spPageContextInfo.siteServerRelativeUrl; };
 var runFunction = function (params) { 
-    //params.Navigation.switchOrNavigateTo(params.ctx._spPageContextInfo.webAbsoluteUrl + "/SitePages/home.aspx", "/home.aspx", "InvoTasksUI", true);
-    const destination = 'https://project.microsoft.com/?org=org4368b851.crm4.dynamics.com#/taskgrid?projectId=8699bacb-2774-433e-a6d0-2bd4ab245e14'
-    window.open(destination)
+    let sitePath = params.ctx._spPageContextInfo.webServerRelativeUrl;
+    const folderMainpath = '/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fproject%2F'; //Mappebane for query til dokumentsamling i prosjektet
+    let siteName = params.ctx._spPageContextInfo.webTitle; // Tittelen til sidesamling, tilsvarer prosjektnavnet
+    const fremdriftFlr = '%2FShared%20Documents%2FProsjekt%2F07%20%2D%20Fremdriftsplan' // Konstant til prosjektmappebane, denne delen vil være den samme i alle prosjekter
+    let destination = sitePath + folderMainpath+ siteName + fremdriftFlr;
+
+    // Navierer til fremdritfsplan
+    params.Navigation.switchOrNavigateTo(destination, "", "", true);
 };
 
 return {

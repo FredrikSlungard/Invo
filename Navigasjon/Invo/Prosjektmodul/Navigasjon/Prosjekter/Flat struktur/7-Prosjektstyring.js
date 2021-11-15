@@ -1,6 +1,7 @@
 // Åpner prosjektstyringen
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl !== params.ctx._spPageContextInfo.siteServerRelativeUrl; };
-var runFunction = function (params) { params.Navigation.switchOrNavigateTo(params.ctx._spPageContextInfo.webServerRelativeUrl + "/SitePages/process.aspx", "/process.aspx", "InvoProcessUI", true); };
+var runFunction = function (params) { 
+    params.Navigation.switchOrNavigateTo(params.ctx._spPageContextInfo.webServerRelativeUrl + "/SitePages/process.aspx", "/process.aspx", "InvoProcessUI", true); };
 return {
     "Title": "Prosjektstyring",
     "Id": "InvoProcessUI",
