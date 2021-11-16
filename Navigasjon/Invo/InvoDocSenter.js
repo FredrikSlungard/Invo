@@ -9,11 +9,11 @@ return {
   "Title": "Dokumentsenter",
   "Id": "InvoNavDocCenter",
   Order: 300,
-  "ImageUrl": "https://invocdn.azureedge.net/images/document2.png",
+  "ImageUrl": "https://invocdn.azureedge.net/images/modern2/document_outline.svg",
   "Type": "Function",
   "Condition": condition,
   "RunFunction": runFunction,
   "GroupTitle": "Invo",
-  GroupOrder: 100,
+  GroupOrder: 400,
   "GroupType": "Upper"
 };
