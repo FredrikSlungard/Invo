@@ -2,7 +2,7 @@
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl !== params.ctx._spPageContextInfo.siteServerRelativeUrl; }
 var runFunction = function (params) {
     var obj = {};
-    obj.layout = [["SiteNo", "StartDate", "TaskDueDate", "SiteManager", "SiteCompany", "ContactPerson", "SiteDescription", "UseRestrictedAccess", "ReadPermissionUsers", "ModifyPermissionUsers"]];
+    obj.layout = [["SiteNo", "AdresseCalculated", "ForemanBas", "SiteManager", "SiteCompany", "ContactPerson", "ReadPermissionUsers", "ModifyPermissionUsers"]];
     obj.minFreeWidth = 205;
     obj.getParentFreeWidth = function () {
         //console.log("get free width!")

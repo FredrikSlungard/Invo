@@ -8,7 +8,7 @@ return {
     "Title": "Anbudslogg",
     "Id": "Anbudslogg",
     Order: 400,
-    "ImageUrl": "https://invocdn.azureedge.net/images/document2.png",
+    "ImageUrl": "https://invocdn.azureedge.net/images/modern2/document_outline.svg",
     "Type": "Function",
     "Condition": condition,
     "RunFunction": runFunction,
