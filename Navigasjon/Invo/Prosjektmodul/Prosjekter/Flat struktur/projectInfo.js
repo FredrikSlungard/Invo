@@ -23,7 +23,7 @@ var runFunction = function (params) {
         if (section && section.clientWidth) {
             if (main.clientWidth - section.clientWidth) {
                 obj.parentFreeWidth = main.clientWidth - section.clientWidth;
-                obj.displayOnLoadIfPossible = true;
+                obj.displayOnLoadIfPossible = false;
             }
         }
     }

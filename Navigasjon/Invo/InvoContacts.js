@@ -14,6 +14,6 @@ return {
   "Condition": condition,
   "RunFunction": runFunction,
   "GroupTitle": "Invo",
-  GroupOrder: 100,
+  GroupOrder: 400,
   "GroupType": "Upper"
 };
