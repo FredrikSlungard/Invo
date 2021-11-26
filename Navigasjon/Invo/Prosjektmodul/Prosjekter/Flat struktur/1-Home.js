@@ -1,5 +1,7 @@
-var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl !== params.ctx._spPageContextInfo.siteServerRelativeUrl; }
-var runFunction = function (params) { return params.ctx._spPageContextInfo.webAbsoluteUrl; }
+var condition = function (params) { 
+    return params.ctx._spPageContextInfo.webServerRelativeUrl !== params.ctx._spPageContextInfo.siteServerRelativeUrl; }
+var runFunction = function (params) { 
+    return params.ctx._spPageContextInfo.webAbsoluteUrl; }
 return {
     "Title": "Hjem",
     "Id": "InvoDocumentsRecent",
