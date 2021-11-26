@@ -5,7 +5,7 @@ var runFunction = function (params) {
   params.Navigation.switchOrNavigateTo(site+list, "", "", true); 
 }
 return {
-	"Title": "Maler",
+	"Title": "QMS maler",
 	Order: 400,
 	"ImageUrl": "https://invocdn.azureedge.net/images/modern2/quality.svg",
 	"Type": "Function",
