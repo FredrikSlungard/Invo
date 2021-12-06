@@ -1,7 +1,7 @@
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl === params.ctx._spPageContextInfo.siteServerRelativeUrl; }
 var runFunction = function (params) { 
     const parentSite = params.ctx._spPageContextInfo.webServerRelativeUrl;
-    const moduleSite = '/SitePages/Tender.aspx';
+    const moduleSite = '/SitePages/Anbudslogg.aspx';
     window.open(parentSite + moduleSite);
 }
 return {

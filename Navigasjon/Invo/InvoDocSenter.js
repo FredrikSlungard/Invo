@@ -6,7 +6,7 @@ var runFunction = function (params) {
   window.open(parentSite + moduleSite);
 }
 return {
-  "Title": "Dokumentsenter",
+  "Title": "Administrasjon",
   "Id": "InvoNavDocCenter",
   Order: 300,
   "ImageUrl": "https://invocdn.azureedge.net/images/modern2/document_outline.svg",
