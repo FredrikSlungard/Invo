@@ -1,8 +1,8 @@
+// Navigasjonen til anbudslogg fra intranettsiden
 var condition = function (params) { return params.ctx._spPageContextInfo.webServerRelativeUrl === params.ctx._spPageContextInfo.siteServerRelativeUrl; }
 var runFunction = function (params) { 
-    const parenSite = params.ctx._spPageContextInfo.webServerRelativeUrl;
-    const anbudsloggPath = '/SitePages/Anbudslogg.aspx';
-    params.Navigation.switchOrNavigateTo(parenSite+anbudsloggPath, "", "", true); 
+    const destination = 'https://asconsolvo.sharepoint.com/sites/project/SitePages/Anbudslogg.aspx';
+    params.Navigation.switchOrNavigateTo(destination, "", "", true); 
   }
 return {
     "Title": "Anbudslogg",
